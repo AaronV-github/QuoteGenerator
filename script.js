@@ -46,14 +46,15 @@ constructor(props) {
  render() {
   return (
     <div>
-    <div id="quote-box">
+      <div class="col text-center">
+    <div id="quote-box" class="d-flex justify-content-center flex-nowrap">
       <div id="text"> 
-      <button id="new-quote" onClick={this.handleChange}>Click Me</button>
       <p>Quote: {this.state.quote}</p>
         <div id="author">
         <p>Author: {this.state.author}</p>
-           
+        <button id="new-quote" onClick={this.handleChange}>Click Me</button>
          </div>
+       </div>
        </div>
      </div>
      </div>
