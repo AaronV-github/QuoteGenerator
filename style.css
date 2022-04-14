@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    background: rgb(45,180,253);
+    background: linear-gradient(0deg, rgba(45,180,253,1) 0%, rgba(34,193,195,0.620502717688638) 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+#text{
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    padding: 95px;
+}
+
+.button-quote{
+    margin-top: 30px;
+}
+#quote{
+    font-size: 35px;
+    font-weight: 700px;
+    font-family: 'Courgette', cursive;
+}
+
+#author{
+    font-size: 20px;
+    font-style: italic;
+}
+
