@@ -53,7 +53,7 @@ constructor(props) {
         <p id="author">-{this.state.author}</p>
         </div>
         <div class="button-quote">
-       <button class="btn btn-outline-dark btn-lg" onClick={this.handleChange}>Click Me</button>
+       <button class="btn btn-dark btn-lg" onClick={this.handleChange}>Click Me</button>
        </div>
        </div>
        </div>
